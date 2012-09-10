@@ -1,5 +1,5 @@
 #Method that interleaves two arrays 
-def interleave (arr1,arr2)
+def interleave ( arr1 , arr2 )
 	c = []
 	if arr1.length < arr2.length 
 		b=arr1
