@@ -1,6 +1,6 @@
 
 #Method to randomly permute a string
-def scramble(strinng)
+def scramble(string)
 	string.split("").shuffle.join
 end
 
