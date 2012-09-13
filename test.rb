@@ -1,3 +1,5 @@
+#DONE
+# Unit test for exercises 1-6
 require 'test/unit'
 require 'misc.rb'
 
@@ -6,7 +8,7 @@ class String
     self.split(//).sort == other.split(//).sort
   end
 end
-
+  
 class TestUtil < Test::Unit::TestCase
 
   def test_strip_vowels()
@@ -24,13 +26,30 @@ class TestUtil < Test::Unit::TestCase
     end
     assert(!"abc".is_permutation_of(scramble("aab")))
   end
-
+  
+  def create_result_of_two(p)
+   res =[] 
+   powers_of_two(p){|x|res << x}
+   return res
+  end
+  
   def test_powers_of_two()
-    # TODO
+    assert_equal(create_result_of_two(10),[1,2,4,8])
+    assert_equal(create_result_of_two(30),[1,2,4,8,16])
+    assert_equal(create_result_of_two(0),[1])
+  end
+  
+  def create_result_of_pow(p,l)
+   res =[] 
+   powers(p,l){|x|res << x}
+   return res
   end
 
   def test_powers()
-	#TODO
+    assert_equal(create_result_of_pow(2,10),[1,2,4,8])
+    assert_equal(create_result_of_pow(3,30),[1,3,9,27])
+    assert_equal(create_result_of_pow(4,50),[1,4,16])
+    assert_equal(create_result_of_pow(2,100),[1,2,4,8,16,32,64])
   end
 
   def test_interleave()

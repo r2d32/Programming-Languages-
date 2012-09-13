@@ -4,6 +4,6 @@ def powers_of_two(s)
 	i = 2
 	while i < s
 		puts i
-		i = i * i 
+		i = i * 2 
 	end
 end

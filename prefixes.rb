@@ -1,3 +1,4 @@
+#DONE
 #Script that writes successive prefixes of its first input argument
 ARGV.each do |a|
 	result = ""
