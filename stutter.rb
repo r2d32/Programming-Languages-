@@ -1,8 +1,6 @@
 #Method that doubles all the elements in the array
-def stuter(arr)
-	stuttered = []
-	0.upto(arr.length - 1)  
-		stuttered.push arr[i]
-		stuttered.push arr[i]
+class Array
+	def stutter
+		return self.zip(self).flatten(1)
 	end
 end
