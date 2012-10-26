@@ -1,0 +1,163 @@
+
+ur mother"
+=> true
+>> 
+?> 
+?> class Point
+>> end
+=> nil
+>> Pint
+NameError: uninitialized constant Pint
+	from (irb):7
+>> Point
+=> Point
+>> 
+?> 8.class
+=> Fixnum
+>> Point.class
+=> Class
+>> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> Class
+=> Class
+>> Class.public_instance_methods
+=> ["private_class_method", "inspect", "name", "tap", "clone", "public_methods", "__send__", "method_defined?", "instance_variable_defined?", "autoload", "equal?", "freeze", "extend", "send", "const_defined?", "methods", "ancestors", "module_eval", "hash", "dup", "object_id", "instance_methods", "public_method_defined?", "taguri", "instance_variables", "class_variable_defined?", "eql?", "yaml_as", "constants", "taguri=", "id", "instance_eval", "singleton_methods", "module_exec", "instance_method", "const_missing", "taint", "autoload?", "instance_variable_get", "frozen?", "to_enum", "private_method_defined?", "to_yaml_style", "public_instance_methods", "display", "instance_of?", "superclass", "to_a", "included_modules", "const_get", "instance_exec", "type", "<", "protected_methods", "<=>", "class_eval", "==", "class_variables", ">", "===", "instance_variable_set", "enum_for", "yaml_tag_read_class", "protected_instance_methods", "protected_method_defined?", "respond_to?", "kind_of?", ">=", "method", "public_class_method", "yaml_tag_class_name", "to_s", "<=", "const_set", "allocate", "to_yaml", "class", "new", "private_methods", "=~", "tainted?", "__id__", "class_exec", "to_yaml_properties", "untaint", "nil?", "private_instance_methods", "include?", "is_a?"]
+>> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> 
+?> Point.new
+=> #<Point:0x1010f51e8>
+>> 
+?> Class.public_instance_methods.member? :initialize?
+=> false
+>> class Point
+>> class Point. new
+>> class Point
+>> Point.new
+>> class Point
+>> 
+Display all 340 possibilities? (y or n) 
+>> class Point
+>> def to_s
+>> 
+Display all 340 possibilities? (y or n) 
+>> 
+Display all 340 possibilities? (y or n) 
+>> 
+?> 
+?> 
+?> 
+?> 
+?> defto _s
+>> def to_s
+>> "(#{@x},#{@x})"
+>> 
+?> end
+
+
+
+
+
+
+
+
+
+>> class Point
+>>   attr_reader : x
+>> end
+SyntaxError: compile error
+(irb):2: syntax error, unexpected ':', expecting kEND
+  attr_reader : x
+               ^
+	from (irb):3
+>> class Point 
+>> attr_ reader #
+>> attr_writer #
+>> attr_accessor :x :y #so that fields can be changed easily 
+>>  
+?> def f(x,y,z)
+>> x + y * z 
+>> end
+>> 
+?> def f (x,y,z=9) #z is an optional argument that takes in the value 9 when it is not given
+>> def distance_to_origin
+>>  Math.sqrt(@x*@x+@y*@y)
+>> edn
+>> end
+>> 
+
+
+
+
+
+
+
+
+
+
+>> class Animal
+>>   def initialize(name)
+>>     @name = name
+>>   end
+>>   def speak()
+>>     "#{@name} says #{sound()}"
+>>   end
+>> end
+=> nil
+>> class Cow < Animal
+>>   def sound()
+>>     "moo"
+>>   end
+>> end
+=> nil
+>> 
+?> class Horse < Animal
+>>   def sound()
+>>     "neigh"
+>>   end
+>> end
+=> nil
+>> 
+?> class Sheep < Animal
+>>   def sound()
+>>     "baaaaa"
+>>   end
+>> end
+=> nil
+>> Sheep.new("Squid").speak
+=> "Squid says baaaaa"
+>> class Animal
+>>   attr_reader :name
+>> end
+=> nil
+>> 
+?> Sheep.new("Squid").name
+=> "Squid"
+>> 
+

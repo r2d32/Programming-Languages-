@@ -1,0 +1,23 @@
+JAVASCRIPT
+
+Powers
+	http://jsfiddle.net/QKz9z/
+PowersOfTwo
+	http://jsfiddle.net/zHQqv/
+Scramble
+	http://jsfiddle.net/3Mgh5/
+WordCount
+	http://jsfiddle.net/yPPnn/
+Interleave
+	http://jsfiddle.net/ngKWy/
+Stutter
+	http://jsfiddle.net/JYcz7/
+StripVowels
+	http://jsfiddle.net/PFT6H/
+Prefixes(matsumoto)
+	http://jsfiddle.net/7ggsW/
+Change
+	http://jsfiddle.net/P8Q2r/
+	
+RUBY 
+

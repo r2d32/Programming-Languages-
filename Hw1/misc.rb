@@ -1,3 +1,4 @@
+#DONE
 # Method to remove vowels from a string
 def strip_vowels(str)
   str.delete "aeiouAEIOU"

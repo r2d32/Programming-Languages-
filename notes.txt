@@ -1,0 +1,15 @@
+Ruby
+  scripting
+  Rails apps
+  $ ruby myapp.rb
+  .
+  .
+  .
+JS 
+  Client-Side
+  web apps
+  in the browser 
+
+JAVA
+  for really, really ,really Big server side applications 
+
